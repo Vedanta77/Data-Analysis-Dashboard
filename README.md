@@ -1,12 +1,12 @@
-# 🍕 **Pizza Sales Analytics Dashboard (SQL + MS EXCEL)**  
+# Pizza Sales Analytics Dashboard (SQL + MS EXCEL)
 
-## **📌 Project Objective**  
+##  Project Objective 
 The goal of this project is to analyze pizza sales data to understand revenue trends, customer behaviour, and product-level performance.  
 The insights support business decisions related to menu optimization, staffing, and inventory planning.
 
 ---
 
-## **📁 Dataset Used**  
+##  Dataset Used
 The dataset includes:  
 - Order details  
 - Order date and time  
@@ -18,7 +18,7 @@ The dataset includes:
 
 ---
 
-## **📊 KPIs / Business Questions**  
+##  KPIs / Business Questions 
 1. Total Revenue  
 2. Total Orders  
 3. Average Order Value (AOV)  
@@ -33,7 +33,7 @@ The dataset includes:
 
 ---
 
-## **🧹 Data Cleaning & Preparation (SQL)**  
+##  Data Cleaning & Preparation (SQL)  
 - Removed duplicate order IDs  
 - Standardized date and time fields  
 - Cleaned category and size labels  
@@ -43,7 +43,7 @@ The dataset includes:
 
 ---
 
-## **🛠 SQL Techniques Applied**  
+##  SQL Techniques Applied  
 - `SUM()` for revenue and quantity  
 - `COUNT()` and `COUNT(DISTINCT)` for order counts  
 - `GROUP BY` for category-wise and time-wise summaries  
@@ -52,7 +52,7 @@ The dataset includes:
 
 ---
 
-## **📈 Key Insights**  
+##  Key Insights 
 - Medium and large pizzas drive the highest revenue  
 - Sales peak during lunch and dinner hours  
 - Classic and Supreme categories dominate order volume  
@@ -61,7 +61,7 @@ The dataset includes:
 
 ---
 
-## **📂 Final Dashboard Output**  
+##  Final Dashboard Output 
 The final dashboard includes:  
 - KPI Cards  
 - Daily and Hourly Order Trends  
@@ -72,16 +72,18 @@ The final dashboard includes:
 
 ---
 
-## **📌 Tools Used**  
+##  Tools Used  
 - SQL   
 - Excel  
 
 ---
 
-## **⭐ Project Outcome**  
+##  Project Outcome  
 The dashboard provides a complete understanding of:  
 - Customer demand patterns  
 - Product performance  
 - Revenue contribution  
 - Operational improvement opportunities  
 
+## Dashboard
+<img width="1365" height="652" alt="pizzasalesdb" src="https://github.com/user-attachments/assets/6adc2879-d7c6-406d-9846-52f5ac37b055" />
