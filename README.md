@@ -1,84 +1,87 @@
+# 🍕 **Pizza Sales Analytics Dashboard (SQL + MS EXCEL)**  
 
+## **📌 Project Objective**  
+The goal of this project is to analyze pizza sales data to understand revenue trends, customer behaviour, and product-level performance.  
+The insights support business decisions related to menu optimization, staffing, and inventory planning.
 
-Pizza Sales Analytics Dashboard
+---
 
-Tools Used: SQL, Power BI / Excel
-Skills: Data Cleaning, Data Transformation, KPI Development, Trend Analysis, Visualization
+## **📁 Dataset Used**  
+The dataset includes:  
+- Order details  
+- Order date and time  
+- Pizza names  
+- Pizza categories  
+- Pizza sizes  
+- Quantity sold  
+- Total price  
 
-Project Overview
+---
 
-This project focuses on analyzing pizza sales data to understand revenue performance, customer behavior, and product-level insights. SQL was used for data extraction, cleaning, and KPI calculation, while Power BI/Excel was used for building an interactive dashboard that enables quick decision-making.
+## **📊 KPIs / Business Questions**  
+1. Total Revenue  
+2. Total Orders  
+3. Average Order Value (AOV)  
+4. Total Pizzas Sold  
+5. Average Pizzas per Order  
+6. Daily Trend of Orders  
+7. Hourly Trend of Orders  
+8. Sales by Pizza Category  
+9. Sales by Pizza Size  
+10. Top 5 Best Selling Pizzas  
+11. Bottom 5 Worst Selling Pizzas  
 
-Objectives
+---
 
-Analyze overall sales performance and revenue trends
+## **🧹 Data Cleaning & Preparation (SQL)**  
+- Removed duplicate order IDs  
+- Standardized date and time fields  
+- Cleaned category and size labels  
+- Verified price and quantity consistency  
+- Handled missing or null values  
+- Ensured each order_id mapped correctly to total_price  
 
-Identify best-selling and least-selling pizzas
+---
 
-Study customer ordering patterns (daily and hourly trends)
+## **🛠 SQL Techniques Applied**  
+- `SUM()` for revenue and quantity  
+- `COUNT()` and `COUNT(DISTINCT)` for order counts  
+- `GROUP BY` for category-wise and time-wise summaries  
+- `DATEPART()` and `DATENAME()` for hour/day trends  
+- `ORDER BY` with `TOP` for identifying best and worst sellers  
 
-Understand category-wise and size-wise contribution to revenue
+---
 
-Develop a dashboard that supports business decisions related to operations, inventory, and promotions
+## **📈 Key Insights**  
+- Medium and large pizzas drive the highest revenue  
+- Sales peak during lunch and dinner hours  
+- Classic and Supreme categories dominate order volume  
+- A small group of pizzas contribute a major share of revenue  
+- Several items consistently underperform and may require menu review  
 
-Data Cleaning & Preparation (Using SQL)
+---
 
-Removed duplicate order records
+## **📂 Final Dashboard Output**  
+The final dashboard includes:  
+- KPI Cards  
+- Daily and Hourly Order Trends  
+- Category & Size-wise Sales Distribution  
+- Top 5 Bestsellers  
+- Bottom 5 Worst Sellers  
+- Interactive slicers for deeper analysis  
 
-Fixed inconsistent date and time formats
+---
 
-Standardized category and size labels
+## **📌 Tools Used**  
+- SQL   
+- Excel  
 
-Handled missing or null values
+---
 
-Validated totals by comparing row counts before and after cleaning
+## **⭐ Project Outcome**  
+The dashboard provides a complete understanding of:  
+- Customer demand patterns  
+- Product performance  
+- Revenue contribution  
+- Operational improvement opportunities  
 
-Ensured each order_id mapped correctly to quantity and price
-
-This ensured accurate calculations and reliable visual representation.
-
-Key KPIs Developed
-
-Total Revenue – Overall revenue generated from all orders
-
-Average Order Value (AOV) – Revenue per unique order
-
-Total Pizzas Sold – Sum of all pizza quantities ordered
-
-Total Orders – Count of distinct orders placed
-
-Average Pizzas per Order – Ratio of total pizzas to number of orders
-
-These KPIs provide a high-level view of business performance.
-
-Analytical Insights & Visuals
-
-Daily Order Trend: Identifies which days of the week receive the highest order volume.
-
-Hourly Order Trend: Highlights peak periods, typically during lunch and dinner hours.
-
-Sales by Pizza Category: Displays which categories (e.g., Classic, Supreme) contribute the most to revenue.
-
-Sales by Pizza Size: Shows size preference among customers and indicates which sizes influence revenue most.
-
-Top 5 Best Sellers: Identifies pizzas with the highest demand.
-
-Bottom 5 Sellers: Highlights items with low performance that may require review or removal.
-
-Tools & Techniques Used
-
-SQL: Used for data extraction, cleaning, aggregation, and KPI calculation.
-
-Power BI / Excel: Utilized for visualization through KPI cards, bar charts, line charts, and pie charts.
-
-Business Analysis: Interpreting trends to support decisions on menu optimization, marketing, and staffing.
-
-Key Business Insights
-
-Medium and large pizzas contribute significantly to overall revenue.
-
-Peak order times align with typical lunch and dinner hours, indicating staffing and inventory requirements.
-
-A small group of pizzas consistently drives most revenue, signaling areas for targeted promotions.
-
-Low-performing pizzas may require recipe modification, promotion, or removal to reduce wastage.
