@@ -33,7 +33,7 @@ The dataset includes:
 
 ---
 
-##  Data Cleaning & Preparation (SQL)  
+##  Data Cleaning & Preparation  
 - Removed duplicate order IDs  
 - Standardized date and time fields  
 - Cleaned category and size labels  
